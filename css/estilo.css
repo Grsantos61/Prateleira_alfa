@@ -1,0 +1,340 @@
+
+
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+/* COLUNA 1 */
+.col-md-2 {
+    border-right: 1px solid #CED4DA;
+}
+
+/*BREADCRUMD*/
+#breadcrumb{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    width: 190px;
+    height: 48px;
+    left: 147px;
+    top: 161px;
+    
+
+    margin-top: 10px;
+    
+}
+ 
+.breadcrumb li{
+
+/* Basic Typography/Paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+/* identical to box height, or 144% */
+
+/* Color Fill/Dark - Hover */
+
+color: #484E53;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.breadcrumb li a{
+    /* Basic Typography/Paragraph Semi Bold */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+/* identical to box height, or 144% */
+
+/* Color Fill/Primary */
+
+color: #0D6EFD;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*MENU CHECKBOX*/
+#title-h4 h4{
+
+/* Table Header/1) Table Header */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+/* identical to box height */
+
+letter-spacing: 1.33333px;
+
+/* $azul_alfa */
+
+color: #004062; 
+}
+
+.form-check{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.form-check .bi-star-fill{
+    color: #FFC107;
+}
+
+.form-check .bi-star{
+    color: #E9ECEF;
+}
+
+/* COLUNA 2 */
+h6{
+    /* Basic Typography/Paragraph */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    /* identical to box height, or 144% */
+}
+
+.col-md-3 { 
+    width: 256px;
+    height: 36px;
+    border: 1px solid #484E53;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.col-md-3 p{
+    /*margin: 10px 0 0 0px;*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 36px;
+    /* or 154% */
+
+    color: #000000;
+}
+
+/* CARDS */
+.card{   
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    /* Card Produto */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 14px;
+
+    width: 445px;
+    height: 624px;
+    margin-top: 25px;
+    top: 30px;
+    
+    
+    /* Input State/Disabled */
+
+    background: #E9ECEF;
+    /* Input State/Default */
+
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+}
+
+.card-body{
+    padding: 0px;
+}
+
+.card-body .bi-question-circle-fill{
+    /* $azul_alfa */
+
+    color: #004062;
+}
+
+.card .card-alert .btn{
+    height: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 0px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Color Fill/White */
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.card-title{
+    
+
+
+    /* Basic Typography/H5 Heading */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* $azul_alfa */
+
+    color: #004062;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card-body li{
+    /*background-color: transparent;
+    border: none;*/
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    /* identical to box height */
+    display: inline-block;
+    color: #000000;
+}
+
+.card-body li .bi{   
+    color: #004062;
+}
+
+.card-body .valor{ 
+    height: 59px;
+    /* Basic Typography/Display 3 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    /* $azul_alfa */
+
+    color: #004062;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-body .valor .parcelas{
+    font-size: 16px;
+}
+
+.card-body .alt-valor{
+    /* Basic Typography/H6 Heading */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card-body .btn-primary{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 6px;
+
+    width: 415px;
+    height: 50px;
+
+    /* Color Fill/Primary */
+
+    background: #0D6EFD;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 7;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* PAGINATION */
+.pagination{
+    margin-top: 70px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
